@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-color: rgb(169, 184, 229);
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.login-container{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.login-container h2{
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-icon{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-icon i {
+    font-size: 65px;
+    color: #333;
+}
+
+h2.login-topic{
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button[type="submit"]{
+    background-color: #af4c4c;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .divider {
+        text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+.divider .divider-line {
+    border-top: 1px solid #8b3030;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+}
+.divider span{
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+    font-size: 1.2rem;
+    color: #8b3030;
+}
+
+button.btn-social{
+    background-color: #4267B2;
+    padding: 10px;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+button.btn-social i{
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+.sign-link{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top : 20px;
+
+}
+.sign-link a {
+    color: #d63939;
+    font-weight: 600;
+}
+
+button.btn-social:hover{
+    background-color: #365899;
+}
